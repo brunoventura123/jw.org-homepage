@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.header-top, .header-top-container .header-top-right, .header-top-container .header-top-right .links, .header-top-container .header-top-right .input, .header-top-container .header-top-right .input div, nav .nav-link, .jw-list-1 .jw-list-1-title, .jw-read-bible .jw-read-bible-right a, .jw-videos .jw-videos-title, .jw-videos .jw-videos-area, .jw-list-3, .jw-list-3 .play, .finish, .complet { display: flex; justify-content: center; align-items: center; }
+
+.finish-left, .finish-right { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+
+.section-top-div a, .jw-read-bible .jw-read-bible-right a, .jw-videos .button a { background-color: #4a6da7; display: inline-flex; align-items: center; margin-top: 10px; color: #FFF !important; font-size: 19px; font-weight: 500; padding: 5px 10px; cursor: pointer; text-decoration: none !important; }
+.section-top-div a:hover, .jw-read-bible .jw-read-bible-right a:hover, .jw-videos .button a:hover { background-color: #3a5684; }
+
+body { box-sizing: border-box; padding: 0; margin: 0; background-color: #eceae7; }
+
+.logo img { width: 103px; height: 80px; top: 0; position: absolute; z-index: 99; }
+
+.header-top { background-color: #FFF; margin: auto; width: 1140px; height: 50px; }
+
+.header-top-container { background-color: #FFF; display: flex; align-items: center; justify-content: space-between; max-width: 1140px; margin: auto; height: 100%; }
+.header-top-container h2 { background-color: #FFF; color: #555; margin-left: 50px; font-size: 25px; font-weight: 400; margin-bottom: 0; }
+.header-top-container .header-top-right { background-color: #FFF; }
+.header-top-container .header-top-right .links { flex-direction: row; }
+.header-top-container .header-top-right .links a { text-decoration: none; margin-right: 20px; padding: 6px 5px; color: #4a6da7; }
+.header-top-container .header-top-right .links a:hover { background-color: #dee7f1; }
+.header-top-container .header-top-right .links a img { width: 24px; height: 24px; margin-right: 10px; }
+.header-top-container .header-top-right .input { width: 290px; height: 38px; border: 1px solid #999; border-radius: 3px; justify-content: space-between; margin-right: 10px; }
+.header-top-container .header-top-right .input input { border: 0; outline: 0; width: 85%; }
+.header-top-container .header-top-right .input div { height: 100%; width: 15%; border-left: 1px solid #999; }
+.header-top-container .header-top-right .input div img { width: 24px; height: 24px; margin-right: 5px; margin-left: 5px; cursor: pointer; }
+
+.header-bottom { display: flex; background-color: #212529; min-height: 30px; padding: 0; max-width: 1440px; margin: auto; }
+.header-bottom .none { display: none; width: 24px; height: 24px; }
+.header-bottom .loupe-none img { width: 24px; height: 24px; display: none; }
+
+nav { max-width: 1140px; background-color: transparent; padding: 0px 0px 0px 230px !important; }
+nav button span { color: #FFF; background-color: transparent; }
+nav .nav-link { color: #FFF; margin-right: 20px; font-size: 14px; list-style: none; }
+nav .nav-link:hover { color: #FFF; background-color: #000; }
+nav img { width: 24px; height: 24px; margin-right: 5px; }
+
+.section-top { background-image: url("/assets/images/jw-front-cover.jpg"); background-size: cover; background-position: top; max-width: 1140px; margin: auto; min-height: 380px; display: flex; justify-content: flex-end; }
+
+.section-top-div { background-color: rgba(0, 0, 0, 0.702); width: 45%; color: #FFF; padding: 50px 0 50px 50px; }
+.section-top-div h1 { width: 70%; line-height: 43px; padding: 0; }
+.section-top-div p { width: 70%; font-size: 18px; }
+
+.section-all { max-width: 1140px; background-color: #FFF; margin: auto; padding: 0 64px; }
+
+.jw-list-1 { margin: auto; width: 100%; }
+.jw-list-1 .jw-list-1-title { justify-content: space-between; padding: 24px 0; }
+.jw-list-1 .jw-list-1-title h2 { font-weight: bold; font-size: 30px; }
+.jw-list-1 .jw-list-1-title a { font-size: 17px; font-weight: 500; text-decoration: none; color: #4a6da7; padding: 8px 6px; }
+.jw-list-1 .jw-list-1-title a:hover { background-color: #dee7f1; }
+.jw-list-1 .image-area img { width: 100%; height: auto; }
+.jw-list-1 .image-area h3 { margin-top: 10px; line-height: 20px; width: 100%; }
+.jw-list-1 .image-area h3 a { text-decoration: none; color: #4a6da7; font-size: 22px; font-weight: normal; }
+.jw-list-1 .image-area h3 a:hover { text-decoration: underline; }
+
+.jw-read-bible { margin-top: 60px; padding-bottom: 40px; display: flex; border-bottom: 1px solid #999; }
+.jw-read-bible .jw-read-bible-left { display: flex; padding-right: 40px; width: 50%; }
+.jw-read-bible .jw-read-bible-left .jw-read-bible-left-image img { width: 138px; height: 138px; }
+.jw-read-bible .jw-read-bible-left .jw-read-bible-left-info { padding-left: 20px; }
+.jw-read-bible .jw-read-bible-left .jw-read-bible-left-info a { font-size: 25px; color: #4a6da7; text-decoration: none; }
+.jw-read-bible .jw-read-bible-left .jw-read-bible-left-info p { margin-top: 5px; font-size: 17px; font-weight: 400; color: #000; }
+.jw-read-bible .jw-read-bible-right { padding-left: 40px; border-left: 1px solid #999; width: 50%; }
+.jw-read-bible .jw-read-bible-right h3 { color: #858585; font-weight: 700; font-size: 25px; }
+.jw-read-bible .jw-read-bible-right a { text-decoration: none; }
+.jw-read-bible .jw-read-bible-right a img { width: 15px; height: 18px; margin-left: 10px; }
+
+.jw-list-2 { width: 100%; }
+.jw-list-2 h2 { margin: 30px 0; color: #000; font-weight: 700; }
+.jw-list-2 .jw-list-2-images .image-area { margin-bottom: 15px; }
+.jw-list-2 .jw-list-2-images .image-area:hover { text-decoration: underline; color: #FFF; }
+.jw-list-2 .jw-list-2-images .image-area a { text-decoration: none; color: #FFF; }
+.jw-list-2 .jw-list-2-images .image-area img { width: 100%; height: auto; }
+.jw-list-2 .jw-list-2-images .image-area p { margin-top: -40px; margin-left: 20px; color: #FFF; text-shadow: 0 1px 2px #000; font-size: 18px; font-weight: bold; }
+
+.jw-list-bool { display: flex; justify-content: space-between; flex-wrap: wrap; padding: 35px 0; border-bottom: 1px solid #999; }
+.jw-list-bool .jw-list-area { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.jw-list-bool .jw-list-area img { width: 220px; height: 220px; border-radius: 50%; }
+.jw-list-bool .jw-list-area .div { padding: 0 20px; width: 300px; }
+.jw-list-bool .jw-list-area .div a { font-size: 25px; text-decoration: none; color: #4a6da7; margin-top: 20px; }
+.jw-list-bool .jw-list-area .div a:hover { text-decoration: underline; }
+.jw-list-bool .jw-list-area .div a p { font-size: 18px; margin-top: 20px; color: #000; }
+
+.jw-videos { display: flex; flex-direction: column; }
+.jw-videos .jw-videos-title { justify-content: space-between; padding: 24px 0; }
+.jw-videos .jw-videos-title h2 { font-weight: bold; font-size: 30px; }
+.jw-videos .jw-videos-title a { font-size: 17px; font-weight: 500; text-decoration: none; color: #4a6da7; padding: 8px 6px; }
+.jw-videos .jw-videos-title a:hover { background-color: #dee7f1; }
+.jw-videos .jw-videos-area { justify-content: space-between; background-image: url("/assets/images/jw-animations-young.jpg"); background-position: center; background-size: cover; height: 380px; }
+.jw-videos .jw-videos-area .jw-videos-info { width: 30%; margin-left: 100px; }
+.jw-videos .jw-videos-area .jw-videos-info a { color: #000; text-decoration: none; }
+.jw-videos .jw-videos-area .jw-videos-info a:hover { text-decoration: underline; }
+.jw-videos .jw-videos-area .jw-videos-info a h2 { font-weight: bold; }
+.jw-videos .jw-videos-area .jw-videos-info p { font-size: 18px; font-weight: 400; padding-right: 50px; color: #222; }
+.jw-videos .button { display: flex; align-items: center; }
+.jw-videos .button a img { width: 20px; height: 20px; margin-right: 5px; }
+
+.jw-list-3 { border-bottom: 1px solid #999; margin: 30px 0; padding: 30px; max-width: 100%; height: auto; }
+.jw-list-3 .width { width: 100%; }
+.jw-list-3 .play { background-color: rgba(0, 0, 0, 0.8); width: 60px; height: 60px; margin-top: -60px; }
+.jw-list-3 .play img { width: 30px; height: 30px; }
+.jw-list-3 a h4 { text-decoration: none; }
+
+.area9-all { display: flex; flex-direction: column; }
+
+.area9-title { padding: 30px 0px 0px 0; max-width: 100%; }
+.area9-title h2 { margin-bottom: 30px; font-size: 42px; font-weight: 700; }
+.area9-title .area9-couple { display: flex; max-width: 100%; }
+.area9-title .area9-couple .couple-p { flex: 1; font-size: 25px; }
+
+.links { flex: 1; margin-left: 30px; margin-right: 10px; display: flex; flex-direction: column; max-width: 100%; }
+.links .link1 { margin-bottom: 30px; max-width: 100%; }
+.links .link1 a { text-decoration: none; color: #4a6da7; font-size: 25px; font-weight: 400; }
+
+.banner-end--desk { background-image: url("/assets/images/jw-footer.jpg"); background-position: center; background-size: cover; height: 380px; max-width: 1140px; margin: auto; }
+
+.footer { height: 300px; background-color: #f0f0f0; box-shadow: 1px px 5px #626262; max-width: 1140px; margin: auto; }
+
+.footer-box { padding: 50px 40px; }
+
+.footer-box--site h4 { font-size: 16px; color: #292929; font-weight: bold; }
+
+.finish { justify-content: flex-start; }
+
+.finish-left { line-height: 20px; }
+
+.finish-right { margin-left: 40px; line-height: 20px; }
+
+.finish-left a, .finish-right a { margin-top: 10px; margin-bottom: 10px; text-decoration: none; color: #4a6da7; font-size: 16px; }
+
+.complet { max-width: 1140px; margin: auto; min-height: 55px; background-color: #373433; }
+
+.complet-now h4 { color: #e3e1de; padding: 20px; font-size: 13px; font-weight: normal; }
+
+.complet-now h4 a { color: #a7b5cc; text-decoration: none; font-size: 14px; margin-left: 20px; }
+
+@media (max-width: 1140px) { .section-all, .section-top, .header-top { width: 100%; } }
+@media (max-width: 960px) { .logo img { width: 73px; height: 50px; top: 0; left: 0; }
+  .header-top { width: 100%; margin: 0; }
+  .header-top-container { width: 100%; justify-content: center; }
+  .header-top-container h2 { font-size: 20px; margin: 0; margin-left: 30px; }
+  .header-top-container .links a { font-size: 14px; }
+  .header-top-container .links a img { width: 18px; height: 18px; }
+  .header-top-container .header-top-right { margin: 0; padding: 0; }
+  .header-top-container .header-top-right .input { width: 200px; margin: 0; }
+  .header-top-container .header-top-right .input div { height: 100%; }
+  .header-top-container .header-top-right .input div img { margin: 0; }
+  .header-bottom { width: 100%; margin: 0; }
+  nav { width: 100%; margin: 0; padding-left: 30px !important; }
+  nav .area { width: 100%; }
+  .section-top { width: 100%; margin: 0; }
+  .section-all { width: 100%; margin: 0; padding: 0 20px; }
+  .jw-list-1 .image-area h3 a { font-size: 22px; }
+  .jw-list-3 { width: 100%; margin: 0; }
+  .jw-list-3 .jw-list-3-move { width: 100%; }
+  .jw-list-3 .jw-list-3-move .image-area { width: 50%; height: auto; }
+  .jw-read-bible { flex-direction: column; }
+  .jw-read-bible .jw-read-bible-left { width: 100%; border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 20px 0; }
+  .jw-read-bible .jw-read-bible-left .jw-read-bible-left-image img { width: 200px; height: 200px; }
+  .jw-read-bible .jw-read-bible-right { width: 100%; margin-top: 30px; border: 0; }
+  .jw-list-2 .jw-list-2-images .image-area p { font-size: 18px; }
+  .jw-list-bool { flex-direction: column; }
+  .jw-list-bool .jw-list-area { flex-direction: row; margin-bottom: 30px; align-items: flex-start; }
+  .jw-list-bool .jw-list-area .div { flex: 1; text-align: start; }
+  .jw-videos .jw-videos-area .jw-videos-info { width: 50%; margin: 0; }
+  .area9 { width: 100%; margin: 0; } }
+@media (max-width: 768px) { .header-top { display: none; }
+  .header-bottom { display: flex; justify-content: space-between; align-items: center; padding: 5px 0px; }
+  .header-bottom .loupe-none img { display: block; margin-right: 20px; }
+  nav .area { display: flex; align-items: flex-start; margin-left: 5px; }
+  nav .area .nav-link { font-size: 13px; padding: 5px 10px; }
+  nav .area .nav-link img { margin-right: 10px; }
+  .jw-read-bible .jw-read-bible-left .jw-read-bible-left-image img { width: 50px; height: 50px; }
+  .section-top { justify-content: center; align-items: flex-end; padding: 0 30px; }
+  .section-top .section-top-div, .section-top .section-top-div h1, .section-top .section-top-div p { width: 100%; height: auto; padding: 10px 20px; }
+  .area9-title { padding: 50px; }
+  .area9-title h2 { width: 100%; }
+  .area9-title .area9-couple { width: 100%; flex-direction: column; }
+  .area9-title .area9-couple .couple-p, .area9-title .area9-couple .links, .area9-title .area9-couple .hr { width: 100%; } }
+@media (max-width: 521px) { .jw-read-bible .jw-read-bible-right { padding-left: 0px; border: none; width: 100%; }
+  .jw-read-bible .jw-read-bible-right a { display: flex; justify-content: space-between; }
+  .jw-list-bool { align-items: center; }
+  .jw-list-bool .jw-list-area { flex-direction: column; align-items: center; }
+  .jw-list-bool .jw-list-area .div { text-align: center; width: 100%; }
+  .jw-videos .jw-videos-area { background-position: right; background-size: cover; justify-content: center; align-items: center; }
+  .jw-videos .jw-videos-area .jw-videos-info { width: 100%; margin-left: 0px; }
+  .jw-videos .jw-videos-area .jw-videos-info p { font-weight: 500; text-shadow: 0px 0px 3px #FFF; }
+  .area9-all { max-width: 100%; }
+  .area9-title { margin: 0; padding: 0; max-width: 100%; margin-top: 20px; }
+  .area9-couple { display: flex; align-items: center; justify-content: center; }
+  .area9-couple .couple-p p { font-size: 18px; }
+  .links { margin: 0; padding: 0; }
+  .links .link1 a { font-size: 18px; }
+  .area9-title h2 { font-size: 27px; max-width: 100%; }
+  .complet-now h4 { line-height: 24px; } }
