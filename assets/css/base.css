@@ -34,7 +34,7 @@ nav .nav-link { color: #FFF; margin-right: 20px; font-size: 14px; list-style: no
 nav .nav-link:hover { color: #FFF; background-color: #000; }
 nav img { width: 24px; height: 24px; margin-right: 5px; }
 
-.section-top { background-image: url("assets/images/jw-front-cover.jpg"); background-size: cover; background-position: top; max-width: 1140px; margin: auto; min-height: 380px; display: flex; justify-content: flex-end; }
+.section-top { background-image: url("./assets/images/jw-front-cover.jpg"); background-size: cover; background-position: top; max-width: 1140px; margin: auto; min-height: 380px; display: flex; justify-content: flex-end; }
 
 .section-top-div { background-color: rgba(0, 0, 0, 0.702); width: 45%; color: #FFF; padding: 50px 0 50px 50px; }
 .section-top-div h1 { width: 70%; line-height: 43px; padding: 0; }
@@ -84,7 +84,7 @@ nav img { width: 24px; height: 24px; margin-right: 5px; }
 .jw-videos .jw-videos-title h2 { font-weight: bold; font-size: 30px; }
 .jw-videos .jw-videos-title a { font-size: 17px; font-weight: 500; text-decoration: none; color: #4a6da7; padding: 8px 6px; }
 .jw-videos .jw-videos-title a:hover { background-color: #dee7f1; }
-.jw-videos .jw-videos-area { justify-content: space-between; background-image: url("assets/images/jw-animations-young.jpg"); background-position: center; background-size: cover; height: 380px; }
+.jw-videos .jw-videos-area { justify-content: space-between; background-image: url("./assets/images/jw-animations-young.jpg"); background-position: center; background-size: cover; height: 380px; }
 .jw-videos .jw-videos-area .jw-videos-info { width: 30%; margin-left: 100px; }
 .jw-videos .jw-videos-area .jw-videos-info a { color: #000; text-decoration: none; }
 .jw-videos .jw-videos-area .jw-videos-info a:hover { text-decoration: underline; }
@@ -110,7 +110,7 @@ nav img { width: 24px; height: 24px; margin-right: 5px; }
 .links .link1 { margin-bottom: 30px; max-width: 100%; }
 .links .link1 a { text-decoration: none; color: #4a6da7; font-size: 25px; font-weight: 400; }
 
-.banner-end--desk { background-image: url("assets/images/jw-footer.jpg"); background-position: center; background-size: cover; height: 380px; max-width: 1140px; margin: auto; }
+.banner-end--desk { background-image: url("./assets/images/jw-footer.jpg"); background-position: center; background-size: cover; height: 380px; max-width: 1140px; margin: auto; }
 
 .footer { height: 300px; background-color: #f0f0f0; box-shadow: 1px px 5px #626262; max-width: 1140px; margin: auto; }
 
