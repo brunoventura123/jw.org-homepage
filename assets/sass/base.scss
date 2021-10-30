@@ -186,7 +186,7 @@ nav{
     }
 }
  .section-top{
-     background-image: url('assets/images/jw-front-cover.jpg');
+     background-image: url('./assets/images/jw-front-cover.jpg');
      background-size:cover;
      background-position:top ;
      max-width: 1140px;
@@ -455,7 +455,7 @@ nav{
     .jw-videos-area {
             @extend %disFlex;
             justify-content: space-between;
-            background-image: url('assets/images/jw-animations-young.jpg');
+            background-image: url('./assets/images/jw-animations-young.jpg');
             background-position: center;
             background-size: cover;
             height: 380px;
@@ -574,7 +574,7 @@ nav{
 }
 
 .banner-end--desk {
-    background-image: url('assets/images/jw-footer.jpg');
+    background-image: url('./assets/images/jw-footer.jpg');
     background-position: center;
     background-size: cover;
     height: 380px;
