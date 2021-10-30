@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
-.header-top, .header-top-container .header-top-right, .header-top-container .header-top-right .links, .header-top-container .header-top-right .input, .header-top-container .header-top-right .input div, nav .nav-link, .jw-list-1 .jw-list-1-title, .jw-read-bible .jw-read-bible-right a, .jw-videos .jw-videos-title, .jw-videos .jw-videos-area, .jw-list-3, .jw-list-3 .play, .finish, .complet { display: flex; justify-content: center; align-items: center; }
+.header-top, .header-top-container, .header-top-container .header-top-right, .header-top-container .header-top-right .links, .header-top-container .header-top-right .input, .header-top-container .header-top-right .input div, nav .nav-link, .jw-list-1 .jw-list-1-title, .jw-read-bible .jw-read-bible-right a, .jw-videos .jw-videos-title, .jw-videos .jw-videos-area, .jw-list-3, .finish, .complet { display: flex; justify-content: center; align-items: center; }
 
 .finish-left, .finish-right { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; }
 
@@ -12,7 +12,7 @@ body { box-sizing: border-box; padding: 0; margin: 0; background-color: #eceae7;
 
 .header-top { background-color: #FFF; margin: auto; width: 1140px; height: 50px; }
 
-.header-top-container { background-color: #FFF; display: flex; align-items: center; justify-content: space-between; max-width: 1140px; margin: auto; height: 100%; }
+.header-top-container { background-color: #FFF; justify-content: space-between; max-width: 1140px; margin: auto; height: 100%; }
 .header-top-container h2 { background-color: #FFF; color: #555; margin-left: 50px; font-size: 25px; font-weight: 400; margin-bottom: 0; }
 .header-top-container .header-top-right { background-color: #FFF; }
 .header-top-container .header-top-right .links { flex-direction: row; }
@@ -36,7 +36,7 @@ nav img { width: 24px; height: 24px; margin-right: 5px; }
 
 .section-top { background-size: cover; background-position: top; max-width: 1140px; margin: auto; min-height: 380px; display: flex; justify-content: flex-end; }
 
-.section-top-div { background-color: rgba(0, 0, 0, 0.702); width: 45%; color: #FFF; padding: 50px 0 50px 50px; }
+.section-top-div { background-color: #000000b3; width: 45%; color: #FFF; padding: 50px 0 50px 50px; }
 .section-top-div h1 { width: 70%; line-height: 43px; padding: 0; }
 .section-top-div p { width: 70%; font-size: 18px; }
 
@@ -60,7 +60,6 @@ nav img { width: 24px; height: 24px; margin-right: 5px; }
 .jw-read-bible .jw-read-bible-left .jw-read-bible-left-info p { margin-top: 5px; font-size: 17px; font-weight: 400; color: #000; }
 .jw-read-bible .jw-read-bible-right { padding-left: 40px; border-left: 1px solid #999; width: 50%; }
 .jw-read-bible .jw-read-bible-right h3 { color: #858585; font-weight: 700; font-size: 25px; }
-.jw-read-bible .jw-read-bible-right a { text-decoration: none; }
 .jw-read-bible .jw-read-bible-right a img { width: 15px; height: 18px; margin-left: 10px; }
 
 .jw-list-2 { width: 100%; }
@@ -95,9 +94,8 @@ nav img { width: 24px; height: 24px; margin-right: 5px; }
 
 .jw-list-3 { border-bottom: 1px solid #999; margin: 30px 0; padding: 30px; max-width: 100%; height: auto; }
 .jw-list-3 .width { width: 100%; }
-.jw-list-3 .play { background-color: rgba(0, 0, 0, 0.8); width: 60px; height: 60px; margin-top: -60px; }
-.jw-list-3 .play img { width: 30px; height: 30px; }
-.jw-list-3 a h4 { text-decoration: none; }
+.jw-list-3 a { text-decoration: none; display: inline-block; }
+.jw-list-3 a:hover { text-decoration: underline; }
 
 .area9-all { display: flex; flex-direction: column; }
 

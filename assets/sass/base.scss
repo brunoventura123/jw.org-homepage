@@ -60,14 +60,11 @@ body {
 }
 .header-top-container{
     background-color:$cor-white;
-    display: flex;
-    align-items: center;
+    @extend %disFlex;
     justify-content: space-between;
     max-width:1140px;
     margin:auto;
     height: 100%;
-    
-
     h2{
         background-color:$cor-white;
         color:$cor-gray;
@@ -197,7 +194,7 @@ nav{
      
  }
  .section-top-div{
-   background-color: rgba(0, 0, 0, 0.702);
+   background-color: #000000b3;
    width: 45%;
    color: $cor-white;
    padding: 50px 0 50px 50px;
@@ -288,18 +285,12 @@ nav{
         padding-right: 40px;
         width: 50%;
 
-        .jw-read-bible-left-image{
-
-            img{
+        .jw-read-bible-left-image img{
                 width: 138px;
                 height: 138px;
-            }
-
         }
         .jw-read-bible-left-info{
             padding-left: 20px;
-
-
             a{
                 font-size: 25px;
                 color: $color-blue;
@@ -327,7 +318,6 @@ nav{
          
            a{
                 @extend %button;
-                text-decoration: none;
                 @extend %disFlex;
             
             img{
@@ -509,19 +499,12 @@ nav{
     .width{
         width: 100%;
     }
-        .play{
-            @extend %disFlex;
-            background-color: rgba(0, 0, 0, 0.8);
-            width: 60px;
-            height: 60px;
-            margin-top: -60px;
-            img{
-                width: 30px;
-                height: 30px;
-            }
-        }
-        a h4{
+        a {
             text-decoration: none;
+            display: inline-block;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 
@@ -578,7 +561,6 @@ nav{
     max-width: 1140px;
     margin: auto;
 }
-
 
 .footer {
     height: 300px;
@@ -669,7 +651,6 @@ nav{
             
             a{
             font-size: 14px;
-
             img{
                 width: 18px;
                 height: 18px;
@@ -682,10 +663,8 @@ nav{
         .input{
             width: 200px;
             margin: 0;
-
             div{
                 height: 100%;
-
                 img{
                     margin: 0;
                 }
@@ -701,26 +680,21 @@ nav{
         width: 100% ;
         margin: 0;
         padding-left: 30px !important;
-
         .area{
             width: 100%;
-            
         }
     }
     .section-top{
         width: 100%;
         margin: 0;
-        
     }
     .section-all{
         width: 100%;
         margin:0;
         padding: 0 20px;
-        
     }
     .jw-list-1 .image-area h3 a{
-                    font-size: 22px;
-                
+        font-size: 22px; 
     }
     .jw-list-3{
         width: 100%;
@@ -736,21 +710,16 @@ nav{
     
     .jw-read-bible{
         flex-direction: column;
-
         .jw-read-bible-left{
             width: 100%;
             border-top: 1px solid $color-999;
             border-bottom: 1px solid $color-999;
             padding: 20px 0;
-            .jw-read-bible-left-image{
-
-                img{
+            .jw-read-bible-left-image img{
                     width: 200px;
                     height: 200px;
                 }
             }
-           
-        }
         .jw-read-bible-right{
             width: 100%;
             margin-top: 30px;
@@ -762,7 +731,6 @@ nav{
       }
       .jw-list-bool{
           flex-direction: column;
-
           .jw-list-area{
               flex-direction: row;
                 margin-bottom: 30px;
@@ -797,23 +765,18 @@ nav{
         margin-right: 20px;
     }
 }
-nav{
-
-    .area{
+nav .area{
         display: flex;
         align-items: flex-start;
         margin-left: 5px;
         .nav-link{
             font-size: 13px;
             padding: 5px 10px;
-
             img{
                 margin-right: 10px;
-
             }
         }
     }
-}
 .jw-read-bible .jw-read-bible-left .jw-read-bible-left-image img {
     width: 50px;
     height: 50px;
@@ -822,7 +785,6 @@ nav{
       justify-content: center;
       align-items: flex-end;
       padding: 0 30px;
-      
       .section-top-div,.section-top-div h1, .section-top-div p{
           width: 100%;
           height: auto;
@@ -837,12 +799,10 @@ nav{
      .area9-couple{
          width: 100%;
          flex-direction: column;
-
          .couple-p,.links,.hr{
              width: 100%;
          }
      }
-    
    }
 }
 
@@ -861,15 +821,13 @@ nav{
         .jw-list-area{
             flex-direction: column;
             align-items: center;
-
             .div{
                 text-align: center;
                 width: 100%;
             }
         }
     }
-    .jw-videos {
-    .jw-videos-area {
+    .jw-videos .jw-videos-area {
         background-position:right;
         background-size: cover;
         justify-content: center;
@@ -885,10 +843,8 @@ nav{
         }
       }
     }
-}
       .area9-all{
           max-width: 100%;
-          
       }
       .area9-title{
           margin: 0;
@@ -900,13 +856,9 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
-
-        .couple-p {
-
-            p{
+        .couple-p p{
                 font-size: 18px;
             }
-        }
     }
     .links{
         margin: 0;
