@@ -608,8 +608,10 @@ nav {
       margin-left: 0px; }
       .jw-videos .jw-videos-area .jw-videos-info p {
         font-weight: 500;
-        text-shadow: 0px 0px 3px #FFF;
-        font-size: 13px; }
+        text-shadow: 0px 0px 3px #FFF; }
+
+  .carousel-item h4 {
+    font-size: 14px; }
 
   .area9-all {
     max-width: 100%; }
