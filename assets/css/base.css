@@ -610,8 +610,8 @@ nav {
         font-weight: 500;
         text-shadow: 0px 0px 3px #FFF; }
 
-  .carousel-item h4 {
-    font-size: 14px; }
+  .carousel-item .image-area h4 {
+    font-size: 16px; }
 
   .area9-all {
     max-width: 100%; }
