@@ -15,7 +15,7 @@
   display: inline-flex;
   align-items: center;
   margin-top: 10px;
-  color: #FFF !important;
+  color: #fff !important;
   font-size: 19px;
   font-weight: 500;
   padding: 5px 10px;
@@ -38,26 +38,26 @@ body {
   z-index: 99; }
 
 .header-top {
-  background-color: #FFF;
+  background-color: #fff;
   margin: auto;
   width: 1140px;
   height: 50px; }
 
 .header-top-container {
-  background-color: #FFF;
+  background-color: #fff;
   justify-content: space-between;
   max-width: 1140px;
   margin: auto;
   height: 100%; }
   .header-top-container h2 {
-    background-color: #FFF;
+    background-color: #fff;
     color: #555;
     margin-left: 50px;
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 0; }
   .header-top-container .header-top-right {
-    background-color: #FFF; }
+    background-color: #fff; }
     .header-top-container .header-top-right .links {
       flex-direction: row; }
       .header-top-container .header-top-right .links a {
@@ -114,15 +114,15 @@ nav {
   background-color: transparent;
   padding: 0px 0px 0px 230px !important; }
   nav button span {
-    color: #FFF;
+    color: #fff;
     background-color: transparent; }
   nav .nav-link {
-    color: #FFF;
+    color: #fff;
     margin-right: 20px;
     font-size: 14px;
     list-style: none; }
     nav .nav-link:hover {
-      color: #FFF;
+      color: #fff;
       background-color: #000; }
   nav img {
     width: 24px;
@@ -141,7 +141,7 @@ nav {
 .section-top-div {
   background-color: #000000b3;
   width: 45%;
-  color: #FFF;
+  color: #fff;
   padding: 50px 0 50px 50px; }
   .section-top-div h1 {
     width: 70%;
@@ -153,7 +153,7 @@ nav {
 
 .section-all {
   max-width: 1140px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: auto;
   padding: 0 64px; }
 
@@ -235,17 +235,17 @@ nav {
     margin-bottom: 15px; }
     .jw-list-2 .jw-list-2-images .image-area:hover {
       text-decoration: underline;
-      color: #FFF; }
+      color: #fff; }
     .jw-list-2 .jw-list-2-images .image-area a {
       text-decoration: none;
-      color: #FFF; }
+      color: #fff; }
     .jw-list-2 .jw-list-2-images .image-area img {
       width: 100%;
       height: auto; }
     .jw-list-2 .jw-list-2-images .image-area p {
       margin-top: -40px;
       margin-left: 20px;
-      color: #FFF;
+      color: #fff;
       text-shadow: 0 1px 2px #000;
       font-size: 18px;
       font-weight: bold; }
@@ -255,6 +255,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 35px 0;
+  margin-top: 50px;
   border-bottom: 1px solid #999; }
   .jw-list-bool .jw-list-area {
     text-align: center;
@@ -432,7 +433,9 @@ nav {
   margin-left: 20px; }
 
 @media (max-width: 1140px) {
-  .section-all, .section-top, .header-top {
+  .section-all,
+  .section-top,
+  .header-top {
     width: 100%; } }
 @media (max-width: 960px) {
   .logo img {
@@ -566,7 +569,9 @@ nav {
     justify-content: center;
     align-items: flex-end;
     padding: 0 30px; }
-    .section-top .section-top-div, .section-top .section-top-div h1, .section-top .section-top-div p {
+    .section-top .section-top-div,
+    .section-top .section-top-div h1,
+    .section-top .section-top-div p {
       width: 100%;
       height: auto;
       padding: 10px 20px; }
@@ -578,7 +583,9 @@ nav {
     .area9-title .area9-couple {
       width: 100%;
       flex-direction: column; }
-      .area9-title .area9-couple .couple-p, .area9-title .area9-couple .links, .area9-title .area9-couple .hr {
+      .area9-title .area9-couple .couple-p,
+      .area9-title .area9-couple .links,
+      .area9-title .area9-couple .hr {
         width: 100%; } }
 @media (max-width: 521px) {
   .jw-read-bible .jw-read-bible-right {
@@ -608,7 +615,7 @@ nav {
       margin-left: 0px; }
       .jw-videos .jw-videos-area .jw-videos-info p {
         font-weight: 500;
-        text-shadow: 0px 0px 3px #FFF; }
+        text-shadow: 0px 0px 3px #fff; }
 
   .carousel-item .image-area h4 {
     font-size: 16px; }
